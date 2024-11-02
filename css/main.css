@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: solid 3px darkcyan; */
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  background-color: darkcyan;
+  color: white;
+  padding: 1rem 2rem;
+}
