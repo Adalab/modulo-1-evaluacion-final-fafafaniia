@@ -1,16 +1,25 @@
 * {
-  box-sizing: border-box;
+  box-sizing: none;
   margin: 0;
   padding: 0;
-  /* border: solid 3px darkcyan; */
 }
 
 .header {
   position: sticky;
   top: 0;
   z-index: 10;
+  display: inline;
 
-  background-color: darkcyan;
+  background-color: #0271bc;
   color: white;
   padding: 1rem 2rem;
 }
+
+.container{
+  position: relative;
+}
+
+.cover{
+  display: block;
+}
+
