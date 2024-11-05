@@ -1,23 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Título</title>
-
-    <link rel="stylesheet" href="./scss/main.scss" />
-    <link rel="icon" href="./images/favicon.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.scss">
   </head>
-
   <body>
-   
-    <header>
-      <h1>Título</h1>
+    <header class="header">
+      <div class="header-container">
+        <div class="menu">
+          <img class="ico-menu" src="./images/ico-menu.svg" alt="menu-hamburguesa">
+        </div>
+        <span class="Anonymous-Proxy">
+          <h1 class="header-title">
+            Anonymous Proxy
+          </h1>
+          <h3 class="subtitle">
+            In hac habitasse platea dictumst.
+          </h3>
+        </span>
+        <div class="button-down">
+          <img class="scroll-down" src="./images/ico-scroll-down.svg" alt="arrow">
+        </div>
+      </div>
     </header>
-    
     <main>
-      Aquí va tu ejercicio
+      <section class="section-1">
+        <h6 class="mini-title">Insomnia tips</h6>
+        <h2 class="section-1-title">Looking Through A Window</h2>
+        <p>
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        </p>
+        <button class="orange-button-1">
+          Go
+        </button>
+      </section>
+      <section class="section-2">
+        <h2 class="section-2-title">
+          3 Reasons To Purchase
+        </h2>
+        <div class="item-1">
+          <h3>
+            Ut sed metus
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur.
+          </p>
+        </div>
+        <div class="item-2">
+          <h3>
+            Curabitur ac erat
+          </h3>
+          <p>
+            Mauris mattis urna quis lorem molestie.
+          </p>
+        </div>
+        <div class="item-3">
+          <h3>
+            Morbi dictum
+          </h3>
+          <p>
+            Aliquam in dolor et dolor tincidunt.
+          </p>
+        </div>
+        <button class="orange-button-2">
+          More Reasons
+        </button>
+      </section>
     </main>
-
+    <footer>
+      <div class="button-up">
+        <img class="scroll-up" src="./images/ico-arrow.svg" alt="up arrow">
+      </div>
+      <div>
+         &copy; 2022
+        <p>we ♥ components</p>
+      </div>
+      <ul class="column-2">
+        <li>ARTICLES</li>
+        <li>BOOKS</li>
+        <li>EVENTS</li>
+        <li>REASONS</li>
+        <li>TIPS</li>
+      </ul>
+      <ul class="column-3">
+        <li>TWITTER</li>
+        <li>INSTAGRAM</li>
+        <li>MASTODON.SOCIAL</li>
+      </ul>
+    </footer>
   </body>
 </html>
