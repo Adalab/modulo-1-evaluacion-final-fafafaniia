@@ -7,17 +7,18 @@
 
 .header-container{
   background-image: url(../images/cover.jpeg);
-  z-index: -1;
-  height: 543px;
+  background-size: cover;
+  background-position: center;
+  min-height: 543px;
   position: relative;
 }
 
 .background-text{
   position: absolute;
+  left: 50%;
+  bottom: 106px;
+  transform: translateX(-50%);
   .header-title{
-    // flex-grow: 0;
-    // letter-spacing: normal;
-    // color: var(--white); 
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -32,6 +33,7 @@
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-size: 16px;
     font-style: normal;
     text-align: center;
   }
@@ -74,6 +76,7 @@
     font-size: 24px;
     line-height: 30px;
     color:#000000;
+    margin-bottom: 20px;
   }
   .paragraph{
     text-align: justify;
@@ -83,6 +86,7 @@
     color:#4a4a4a;
     font-size: 18px;
     line-height: 30px;
+    margin-bottom: 26px;
   }
   .orange-button-1{
     border: solid 2px #f26002;
@@ -90,5 +94,159 @@
     width: 76px;
     height: 45px;
     background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 45px;
+    color:#f26002;
   }
 }
+
+.section-2{
+  padding: 29px 15px 50px;
+  background-color: #eff9ff;
+  text-align: center;
+  .section-2-title{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #000000;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .first-grid{
+    display: grid;
+    grid-template-columns: 70px 180px 70px;
+    .item-1{
+      grid-column: 2;
+      margin-top: 49px;
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      color: #000000;
+      font-size: 18px;
+      line-height: 30px;
+      .item-1-paragraph{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 44px;
+      }
+    }
+    .item-2{
+      grid-column: 2;
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      color: #000000;
+      font-size: 18px;
+      line-height: 30px;
+      .item-2-paragraph{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 44px;
+      }
+
+    }
+    .item-3{
+      grid-column: 2;
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: bold;
+      font-style: normal;
+      color: #000000;
+      font-size: 18px;
+      line-height: 30px;
+      .item-3-paragraph{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 44px;
+      }
+    }
+
+    .orange-button-2{
+      grid-column: 2;
+      border-radius: 22.5px;
+      border: 0;
+      background-color: #f26002;
+      width: 184px;
+      height: 45px;
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 45px;
+    }
+  }
+}
+
+.end{
+  background-color:#304268;
+  display: grid;
+  color: white;
+  display:grid;
+  grid-template-columns: 87px 146px 87px;
+  .li{
+    padding-block: 15px;
+  }
+
+  .scroll-up:hover {
+    transform: translateY(-5px);
+  }
+  .column-1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 65px;
+    margin-inline: 37px;
+    list-style-type: none;
+    text-align: center;
+    grid-column: 2;
+    margin-bottom: 30px;
+  }
+  .column-2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    list-style-type: none;
+    text-align: center;
+    grid-column: 2;
+    margin-bottom: 32px;
+  }
+  .column-3{
+    grid-column: 2;
+    .copyright{
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      text-align: center;
+    }
+    .love-components{
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 36px;
+    }
+  }
+}
+
+
