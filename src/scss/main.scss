@@ -4,46 +4,60 @@
   padding: 0;
 }
 
-.header{
-  position: relative
-}
 
 .header-container{
   background-image: url(../images/cover.jpeg);
+  z-index: -1;
   height: 543px;
+  position: relative;
+}
+
+.background-text{
+  position: absolute;
+  .header-title{
+    // flex-grow: 0;
+    // letter-spacing: normal;
+    // color: var(--white); 
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .subtitle{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+  }
 }
 
 .ico-menu{
+  display: inline;
   position: sticky;
   z-index: 5px;
-  background-color: black;
-  size: 38px 22px;
+  background-color:#0271bc;
+  width: 12px;
+  height: 12px;
+  padding-inline: 13px;
 }
 
 
-.title{
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 36px;
-  text-align: end;
-}
 
-.Anonymous-Proxy{
-  // flex-grow: 0;
-  // letter-spacing: normal;
-  // text-align: center;
-  // color: var(--white); 
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: bold;
-  color: white;
+
+.main{
   display: flex;
-  justify-content: flex-end;
-  transform: to-upper-case($string: "42px");
 }
 
 .section-1{
+  margin-inline: 15px;
+  margin: 24.9px 0 0;
+  padding: 37px 15px 35px;
   .mini-title{
     color: #8ccbea;
     font-family: "Roboto", sans-serif;
@@ -51,5 +65,30 @@
     font-style: normal;
     font-size: 14px;
     line-height: 30px;
+  }
+  .section-1-title{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color:#000000;
+  }
+  .paragraph{
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#4a4a4a;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .orange-button-1{
+    border: solid 2px #f26002;
+    border-radius: 22.5px;
+    width: 76px;
+    height: 45px;
+    background-color: white;
   }
 }
